@@ -1,0 +1,71 @@
+body {
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Jost', sans-serif;
+    color: #EEEEEE;
+}
+
+.scoreboard {
+    width: 575px;
+    height: 385px;
+
+    margin: 0 auto;
+
+    background-color: #1B244A;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.scoreboard__item {
+    text-align: center;
+}
+
+.scoreboard__display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 25px;
+
+    width: 155px;
+    height: 120px;
+    background-color: #080001; 
+
+    line-height: 127px;
+    color: #F94F6D;
+    font-size: 90px;
+}
+
+.scoreboard__addNumbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    font: inherit;
+    font-size: 18px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+}
